@@ -3,12 +3,14 @@
 * - Image Resizer
 * - Version 0.2
 * - Author: Giovanni Di Fiore
-* - Email: joopdf@gmail.com
+* - Email: giovadf@gmail.com
+* - Date: 2012
 *
 */
 
 (function($){
 	
+	// Utility debouncer
 	function debouncer( func , timeout )
 	{
 	   var timeoutID , timeout = timeout || 200;
@@ -21,6 +23,7 @@
 	   }
 	}	
 	
+	// Main resize function
 	function resizeImages()
 	{
 		var containerClass	= '.image-panel',
@@ -62,10 +65,12 @@
 		});
 	}
 
+	// This executes the resizeImages() when all images are loaded
 	$(window).load(function(){
 		resizeImages();
 	});
 	
+	// The debouncer function is used to defer the resizeImages() when the window resizing is established
 	$(window).resize(debouncer(function(){
 		resizeImages();
 	}, 600));
