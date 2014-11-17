@@ -15,6 +15,15 @@ Include the JavaScript source into the `head` tag and then insert images with co
   <img class="image-to-resize" src="http://host/example.jpg" />
 </div>
 ```
+Note that the used CSS classes `image-panel` and `image-to-resize` are hard-coded inside the script, so you can change as you prefer.
+
+### Requirements
+
+Requires jQuery library, version 1.9.* and greater.
+
+### Future improvements
+
+- Authoring this script into a jQuery plugin.
 
 ### Version
 0.2
