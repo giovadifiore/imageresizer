@@ -19,7 +19,7 @@ Note that the used CSS classes `image-panel` and `image-to-resize` are hard-code
 
 ### Requirements
 
-Requires jQuery library, version 1.9.x and greater.
+Requires jQuery library, version 1.9.x or greater.
 
 ### Future improvements
 
