@@ -32,7 +32,7 @@ Include the JavaScript source into the `head` tag and then use the following `ht
 }
 ```
 
-Note that the used CSS classes `image-panel` and `image-to-resize` are hard-coded inside the script, so you can change as you prefer.
+Note that the used CSS classes `image-panel` and `image-to-resize` are hard-coded inside the script, so that you can change as you prefer.
 
 #### Requirements
 
