@@ -8,7 +8,7 @@ The main computing function is binded on the window load event (or when all imag
 
 #### Installation
 
-Include the JavaScript source into the `head` tag and then insert images with containers as below: 
+Include the JavaScript source into the `head` tag and then use the following `html` and `css` code:
 
 ##### HTML
 ```html
